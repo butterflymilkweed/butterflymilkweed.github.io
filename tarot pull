@@ -106,13 +106,13 @@ button:hover {
   
 
 <div style="text-align:center">
-<button style="height:40px;width:140px;"
+
 button type="button" id="button" class="button" onclick="buttonClick()">today's draw	
 </button>
 <p></p>
 <div style="text-align:center">
-<button style="height:40px;width:140px;"
-button type="button" id="button" class="button" onclick=location.reload();
+
+  <button onclick=location.reload();
 >reset deck	
 </button>
 
