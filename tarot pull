@@ -6,7 +6,7 @@ theme: jekyll-theme-cayman
 body {
   
   margin: 0;
-  padding: 1em;
+  padding: 3em;
 }
 
 position: fixed;
@@ -93,8 +93,7 @@ button:hover {
 <div class="container">
 <div class="item-a">
 <div class="item-b">
-    </body>
-    </head>
+ 
   
   <img id="face" src="https://i.ibb.co/bLfPRWG/Modern-Witch-Tarot-Deck-by-Lisa-Sterle.jpg">
   
@@ -107,18 +106,16 @@ button:hover {
   
 
 <div style="text-align:center">
-<button style="height:40px; width:150px;"
- <button type="button" id="button" class="button" onclick="buttonClick()">   <b>today's draw</b>	</button>
+<button style="height:40px;width:140px;"
+button type="button" id="button" class="button" onclick="buttonClick()">today's draw	
+</button>
 <p></p>
 <div style="text-align:center">
-<button style="height:40px; width:150px;"
-  <button onclick=location.reload();
->  <b>reset deck</b>	
+<button style="height:40px;width:140px;"
+button type="button" id="button" class="button" onclick=location.reload();
+>reset deck	
 </button>
 
-
-
-  
 
   </div>
   
@@ -415,5 +412,3 @@ footer {
 	<strong>&copy;2021</strong></p>
     
 </footer>
-
-</div>
